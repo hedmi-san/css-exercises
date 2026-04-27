@@ -29,6 +29,9 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -42,14 +45,17 @@ body {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  padding: 10px;
   border-radius: 4px;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
+  font-size: 14px;
 }
 
 a {
